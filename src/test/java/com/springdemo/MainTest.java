@@ -23,4 +23,21 @@ public class MainTest {
 //        assertEquals("Changed message", outContent.toString());
 //        System.setOut(originalOut);
 //    }
+
+
+//    @Test
+//    public void testCase3() {
+//        System.setOut(new PrintStream(outContent));
+//        Main.main(null);
+//        assertEquals("Welcome to Java!\nAdditional message", outContent.toString());
+//        System.setOut(originalOut);
+//    }
+
+//    @Test
+//    public void testCase4() {
+//        System.setOut(new PrintStream(outContent));
+//        Main.main(null);
+//        assertEquals("", outContent.toString());
+//        System.setOut(originalOut);
+//    }
 }
